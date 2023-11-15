@@ -1,0 +1,21 @@
+{
+  "name": "my-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Ketesdi Eva",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "node-sass": "^9.0.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.10.1",
+    "parcel": "^2.10.1",
+    "sass": "^1.69.4"
+  }
+}
