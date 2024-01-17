@@ -27,7 +27,7 @@ a:hover {
   left: 0;
 }
 .jumbotron {
-  height: 50vh;
+  height: 60vh;
   background-size: cover;
   position: relative;
   background-position: center;
@@ -47,7 +47,44 @@ a:hover {
   text-align: center;
 }
 
-/* Show additional info on hover */
 .card:hover .additional-info {
   display: block;
+}
+
+.badge {
+  overflow: hidden;
+}
+.badge:hover {
+  animation: rotateAnimation 0.3s linear infinite;
+}
+@keyframes rotateAnimation {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(-5deg);
+  }
+}
+.hover-effect-html:hover {
+  color: rgb(255, 89, 0);
+}
+.hover-effect-css:hover {
+  color: rgba(0, 98, 255, 0.915);
+}
+.hover-effect-js:hover {
+  color: rgb(255, 247, 0);
+}
+.hover-effect-bs:hover {
+  color: rgba(177, 86, 189, 0.847);
+}
+.hover-effect-react:hover {
+  color: rgba(0, 225, 255, 0.915);
+}
+.badge img {
+  border-radius: 50%;
+  width: 80px;
+  height: auto;
 }
