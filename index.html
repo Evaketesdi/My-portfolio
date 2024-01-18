@@ -40,16 +40,16 @@
           <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a href="#section--1" class="nav-link">Home</a>
+                <a href="#section--1" class="nav-link btn-lg">Home</a>
               </li>
               <li class="nav-item">
-                <a href="#section--3" class="nav-link">Portfolio</a>
+                <a href="#section--3" class="nav-link btn-lg">Portfolio</a>
               </li>
               <li class="nav-item">
-                <a href="#section--2" class="nav-link">About</a>
+                <a href="#section--2" class="nav-link btn-lg">About</a>
               </li>
               <li class="nav-item">
-                <a href="#section--4" class="nav-link">Contact</a>
+                <a href="#section--4" class="nav-link btn-lg">Contact</a>
               </li>
             </ul>
           </div>
@@ -59,14 +59,14 @@
                 <a
                   href="https://www.linkedin.com/in/eva-ketesdi-755817141/"
                   target="_blank"
-                  class="fab fa-linkedin nav-link"
+                  class="fab fa-linkedin nav-link btn-lg"
                 ></a>
               </li>
               <li class="nav-item">
                 <a
                   href="https://github.com/Evaketesdi"
                   target="_blank"
-                  class="fab fa-github nav-link"
+                  class="fab fa-github nav-link btn-lg"
                 ></a>
               </li>
             </ul>
@@ -75,16 +75,25 @@
       </nav>
       <div class="jumbotron jumbotron-fluid text-left text-light jumbotron-bg">
         <div class="container row mx-auto p-0">
-          <div class="col-md-6">
-            <h4 class="h4">
-              Hi, I'm Eva <br />
-              <span class="display-4">Welcome</span><br />
-              to my online portfolio, where I showcase my journey through the
-              world of <strong>web development.</strong>
-            </h4>
+          <div class="col-md-6 text-container my-5 py-2">
+            <div class="h4" id="animated-text">
+              <h3 class="my-3 display-3">Hi, I'm Eva</h3>
+              <br />
+              <h3 class="display-4">Frontend developer</h3>
+              <br />
+              <h4 class="mb-5">
+                Welcome to my online portfolio, where I showcase my journey
+                through the world of <strong>web development.</strong>
+              </h4>
+            </div>
             <br />
-            <a href="#section--3" class="btn btn-light btn-lg">Projects</a>
-            <a href="My resume.pdf" target="_blank" class="btn btn-light btn-lg"
+            <a href="#section--3" class="btn btn-info btn-lg hover-button"
+              >Projects</a
+            >
+            <a
+              href="My resume.pdf"
+              target="_blank"
+              class="btn btn-info btn-lg hover-button mx-3"
               >My resume</a
             >
           </div>
@@ -96,7 +105,7 @@
       <h2 class="text-light">My work</h2>
       <br />
       <div class="card-deck">
-        <div class="card">
+        <div class="card my-5">
           <img
             class="card-img-top"
             src="photographer's portfolio.png"
@@ -118,7 +127,7 @@
             </div>
           </div>
         </div>
-        <div class="card">
+        <div class="card my-5">
           <img class="card-img-top" src="agroman.png" alt="agroman" />
           <div class="card-body">
             <h4 class="card-title">Agroman</h4>
@@ -136,7 +145,7 @@
             </div>
           </div>
         </div>
-        <div class="card">
+        <div class="card my-5">
           <img class="card-img-top" src="my portfolio.png" alt="my portfolio" />
           <div class="card-body">
             <h4 class="card-title">My portfolio</h4>
@@ -155,8 +164,9 @@
           </div>
         </div>
       </div>
+      <br />
       <div class="text-light my-5">
-        <h4>Some of the skills and tools I work with</h4>
+        <h2 class="my-5">Some of the skills and tools I work with</h2>
         <br />
         <div class="row justify-content-center">
           <div class="badge col-6 col-md-4 col-lg-2 mb-4 hover-effect-html">
@@ -203,11 +213,11 @@
       </div>
     </section>
     <section id="section--2" class="container my-5">
-      <div class="row">
-        <div class="col-12 col-md-6 text-light">
+      <div class="row my-5">
+        <div class="col-12 col-md-6 text-light my-5">
           <h2>Get to know me</h2>
           <br />
-          <h3 class="h3">
+          <h3 class="h3 my-3">
             <small>Hey, I'm Eva Ketesdi, Junior Frontend Developer</small>
           </h3>
           <p class="font-weight-light">
@@ -220,7 +230,7 @@
           </p>
         </div>
         <div class="col-12 col-md-6 my-5">
-          <div class="text-center">
+          <div class="text-center my-5">
             <img
               src="myphoto.jpg"
               alt="my image"
@@ -280,6 +290,7 @@
       </div>
       <div>© 2023 Copyright: Eva Ketesdi</div>
     </footer>
+    <script src="script.js"></script>
     <script
       type="module"
       src="node_modules/jquery/dist/jquery.slim.min.js"
