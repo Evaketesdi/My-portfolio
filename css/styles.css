@@ -103,6 +103,9 @@ a:hover {
 .hover-effect-react:hover {
   color: rgba(0, 225, 255, 0.915);
 }
+.hover-effect-sql:hover {
+  color: rgb(19, 111, 139);
+}
 .badge img {
   border-radius: 50%;
   width: 80px;
