@@ -26,6 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
 /*console.log(Boolean(null));
 console.log(typeof null);
 let x = 10;
