@@ -28,20 +28,17 @@ a:hover {
   background-color: rgb(5, 32, 53) !important;
 }
 .jumbotron-bg {
-  background: url("../markus-spiske-hvSr_CVecVI-unsplash.jpg") no-repeat fixed;
-  position: absolute;
+  min-height: 80vh;
+  background: url("../markus-spiske-hvSr_CVecVI-unsplash.jpg") no-repeat;
+  position: relative;
+  background-size: cover;
+  background-position: center;
   max-width: 100%;
   height: auto;
-  top: 0;
-  left: 0;
-}
-.jumbotron {
-  min-height: 80vh;
-  background-size: cover;
-  position: relative;
-  background-position: center;
   display: flex;
   align-items: center;
+  top: 0;
+  left: 0;
 }
 
 .text-container {
