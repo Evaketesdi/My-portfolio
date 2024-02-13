@@ -29,8 +29,8 @@ a:hover {
   background-color: rgb(5, 32, 53) !important;
 }
 .jumbotron-bg {
-  min-height: 80vh;
-  background: url("../markus-spiske-hvSr_CVecVI-unsplash.jpg") no-repeat;
+  min-height: 65vh;
+  background: url("../hero-image.png") no-repeat fixed;
   position: relative;
   background-size: cover;
   background-position: center;
@@ -54,10 +54,10 @@ a:hover {
 
 .hover-button {
   transition: background-color 0.3s ease, transform 0.3s ease;
+  background-color: rgb(5, 32, 53);
 }
 
 .hover-button:hover {
-  background-color: rgb(5, 32, 53);
   transform: scale(1.05);
 }
 
