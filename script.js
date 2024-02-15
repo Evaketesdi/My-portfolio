@@ -26,29 +26,3 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
-
-/*console.log(Boolean(null));
-console.log(typeof null);
-let x = 10;
-function foo() {
-  let x = 20;
-  console.log(x);
-}
-foo();
-console.log(x);
-let arr = [1, 2, 3, 4];
-arr.map((x) => x * 2);
-console.log(arr);
-let x = 10;
-function changeX() {
-  let x = 20;
-}
-changeX();
-console.log(x);*/
-let x = 1;
-function foo() {
-  let x = 2;
-  console.log(x);
-}
-foo();
-console.log(x);

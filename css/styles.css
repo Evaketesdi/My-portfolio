@@ -9,7 +9,6 @@ img {
   max-width: 100%;
   height: auto;
 }
-
 a {
   text-decoration: none;
   color: lightgray;
@@ -18,21 +17,14 @@ a:hover {
   text-decoration: none;
 }
 .custom-image {
-  width: 250px;
+  max-width: 200px;
   border-radius: 50%;
-}
-/*.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}*/
-
-.nav-link {
-  color: black;
 }
 .bg-primary {
   background-color: rgb(5, 32, 53) !important;
 }
+
+/*jumbotron styling*/
 .jumbotron-bg {
   min-height: 65vh;
   background: url("../hero-image.png") no-repeat fixed;
@@ -61,7 +53,7 @@ a:hover {
 #animated-text {
   opacity: 0;
   transform: translateY(-40px);
-  transition: opacity 3s ease, transform 3s ease;
+  transition: opacity 2s ease, transform 2s ease;
 }
 
 .hover-button {
@@ -72,6 +64,8 @@ a:hover {
 .hover-button:hover {
   transform: scale(1.05);
 }
+
+/*project cards styling*/
 
 .additional-info {
   display: none;
@@ -89,6 +83,8 @@ a:hover {
 .card:hover .additional-info {
   display: block;
 }
+
+/*skill badges styling*/
 
 .badge {
   overflow: hidden;
@@ -129,9 +125,4 @@ a:hover {
   border-radius: 50%;
   width: 80px;
   height: auto;
-}
-.about-me {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
 }
