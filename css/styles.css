@@ -126,3 +126,6 @@ a:hover {
   width: 80px;
   height: auto;
 }
+form {
+  width: 70%;
+}
